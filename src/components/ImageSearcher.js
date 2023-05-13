@@ -18,6 +18,7 @@ const ImageSearcher = () => {
   const handleButton = (value) => {
     setButtonValue(value);
     dispatch({ type: "SEARCH_BUTTON", value });
+    
   };
 
   const handleSearchButton = () => {
