@@ -1,5 +1,4 @@
 const ImageReducer = (state, action) => {
-  console.log(state);
   switch (action.type) {
     case "SEARCH_BUTTON":
       return {
@@ -8,11 +7,20 @@ const ImageReducer = (state, action) => {
           (item) => item.category === action.value
         ),
       };
-      case "SEARCH_INPUT":
-        return {
-          ...state,
-          filteredData: state.data.filter(item => item.alt.toLowerCase().includes(action.value.toLowerCase()))
-        };
+    case "SEARCH_INPUT":
+      return {
+        ...state,
+        filteredData: state.data.filter((item) =>
+          item.alt.toLowerCase().includes(action.value.toLowerCase())
+        ),
+      };
+    case "IMAGE_ZOOM":
+      return {
+        ...state,
+        filteredData: state.filteredData.map(item => 
+          item.id === action.id ? {...item, isActive: !item.isActive} : item
+        )
+      };
     default:
       throw new Error("something went wrong");
   }

@@ -8,8 +8,8 @@ export const ImagesContext = createContext();
 
 
 const initialState = {
-    data: imageData, // oryginalne dane
-    filteredData: imageData, // filtrowane dane
+    data: imageData, // original data
+    filteredData: imageData, // filtered data
   };
 
 const ImageProvider = ({ children }) => {

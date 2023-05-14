@@ -1,0 +1,34 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #00000098;
+ 
+    color: #fbfbfb;
+}
+
+.iconsContainer a {
+    padding: 0 5px;
+    font-size: 30px;
+    transition: color .5s ease-in;
+    color: #fbfbfb;
+}
+
+.iconsContainer {
+    padding-top: 10px;
+}
+
+.iconsContainer a:nth-child(1){
+    font-size: 28px;
+}
+
+.iconsContainer a:hover:nth-child(1) {
+    color: #111111;
+}
+
+.iconsContainer a:hover:nth-child(2) {
+    color: #03578f;
+}

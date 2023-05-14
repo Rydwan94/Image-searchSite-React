@@ -91,6 +91,8 @@
 .buttonGroup button {
     margin: 0 10px;
     background: none;
+    color: black;
+    font-weight: bold;
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
@@ -99,6 +101,12 @@
 
 .buttonGroup button:hover {
     border: none;
+    background-color: black;
+    color: white;
+}
+
+.buttonGroup button.active {
+  border: none;
     background-color: black;
     color: white;
 }
@@ -119,5 +127,13 @@
   .inputImageSearcher label {
     width: 100%;
     padding: 0 30px;
+  }
+
+  .buttonGroup {
+    display: flex;
+    flex-wrap: nowrap; /* Prevents the buttons from wrapping into a new line when scrolling */
+    width: 80%;
+    padding: 20px 0;
+    overflow-x: scroll;
   }
 }

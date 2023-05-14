@@ -4,4 +4,25 @@
 }
 
 
+footer {
+  width: 100%;
+}
 
+.scrollButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  background-color: #272727;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scrollButton:hover {
+  opacity: 1;
+}
