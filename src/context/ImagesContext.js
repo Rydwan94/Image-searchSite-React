@@ -2,7 +2,7 @@ import { createContext, useReducer, useState } from "react";
 
 import ImageReducer from "../reducer/ImageReducer";
 
-import { imageData } from "../data";
+import { imageData } from "../components/data";
 
 export const ImagesContext = createContext();
 
