@@ -13,7 +13,7 @@ const ImageSearcher = () => {
     landscape: false,
     animals: false,
     building: false,
-    peopel: false,
+    people: false,
     space: false,
   });
 
@@ -95,10 +95,10 @@ const ImageSearcher = () => {
             Buildings
           </button>
           <button
-            className={activeButtons.peopel ? "active" : ""}
-            onClick={() => handleCategoryButton("peopel")}
+            className={activeButtons.people ? "active" : ""}
+            onClick={() => handleCategoryButton("people")}
           >
-            Peopel
+            People
           </button>
           <button
             className={activeButtons.space ? "active" : ""}
