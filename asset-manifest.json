@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Rydwan94/Image-searchSite-React.git/static/css/main.859cd6e2.css",
+    "main.js": "/Rydwan94/Image-searchSite-React.git/static/js/main.7a15972a.js",
+    "static/media/camera-1130731_960_720.jpg": "/Rydwan94/Image-searchSite-React.git/static/media/camera-1130731_960_720.0a5bf5e00767f2e72c5b.jpg",
+    "index.html": "/Rydwan94/Image-searchSite-React.git/index.html",
+    "main.859cd6e2.css.map": "/Rydwan94/Image-searchSite-React.git/static/css/main.859cd6e2.css.map",
+    "main.7a15972a.js.map": "/Rydwan94/Image-searchSite-React.git/static/js/main.7a15972a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.859cd6e2.css",
+    "static/js/main.7a15972a.js"
+  ]
+}
